@@ -1,0 +1,51 @@
+# =============================================================
+# Reconciliation AI Agent — Python Dependencies
+# Install: python -m pip install -r requirements.txt
+# Python 3.14+ — flexible pins to ensure pre-built wheels exist
+# =============================================================
+
+# API
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+
+# Database
+sqlalchemy>=2.0.36
+asyncpg>=0.30.0
+alembic>=1.14.0
+
+# Settings
+pydantic>=2.10.0
+pydantic-settings>=2.6.0
+
+# Auth
+python-jose[cryptography]>=3.3.0
+passlib[bcrypt]>=1.7.4
+python-multipart>=0.0.12
+
+# Data processing  (FR-05 ingestion)
+pandas>=2.2.0
+openpyxl>=3.1.0
+python-docx>=1.1.0
+
+# ML / matching engine  (FR-06)
+scikit-learn>=1.5.0
+sentence-transformers>=3.3.0
+numpy>=2.0.0
+
+# Explainability  (analytics/explainability.py — RFP TR-10)
+shap>=0.46.0
+
+# LLM agent  (agent/ — FR-08)
+anthropic>=0.40.0
+
+# Dashboard  (Streamlit PoC)
+streamlit>=1.40.0
+plotly>=5.24.0
+
+# Async utilities
+httpx>=0.28.0
+python-dotenv>=1.0.0
+
+# Testing
+pytest>=8.3.0
+pytest-asyncio>=0.24.0

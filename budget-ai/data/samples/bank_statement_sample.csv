@@ -1,0 +1,11 @@
+Transaction ID,Date,Value Date,Description,Reference No,Counterparty,Debit,Credit,Currency
+TXN-001,15/01/2025,16/01/2025,Supplier Payment - Al Futtaim Group,CHQ-10001,Al Futtaim Group,125000.00,,AED
+TXN-002,15/01/2025,15/01/2025,Utility Payment - DEWA,REF-20025,Dubai Electricity & Water Authority,18750.50,,AED
+TXN-003,16/01/2025,16/01/2025,Customer Receipt - DoF Grant,,Government of Dubai,,500000.00,AED
+TXN-004,16/01/2025,17/01/2025,Payroll Transfer - January 2025,PAY-JAN25,Employee Salaries,2350000.00,,AED
+TXN-005,17/01/2025,17/01/2025,Vendor Payment - Cisco Systems,PO-30041,Cisco Systems LLC,87500.00,,AED
+TXN-006,18/01/2025,18/01/2025,Inter-bank Transfer,TRF-40012,Emirates NBD,,750000.00,AED
+TXN-007,19/01/2025,20/01/2025,Office Rent - Q1 2025,RENT-Q1,Al Habtoor Properties,450000.00,,AED
+TXN-008,20/01/2025,20/01/2025,Software License - Oracle,LIC-50019,Oracle Corporation,320000.00,,AED
+TXN-009,21/01/2025,21/01/2025,Miscellaneous Receipt,,Various,,12500.00,AED
+TXN-010,22/01/2025,22/01/2025,Consulting Fees - Deloitte,INV-DEL-001,Deloitte Middle East,95000.00,,AED
